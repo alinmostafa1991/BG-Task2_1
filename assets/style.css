@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 , h2 , h3
+{
+    padding: 10px 0;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+header
+{
+    background-color: gray;
+    text-align: center;
+    padding: 40px 0;
+}
+nav .RocketImg
+{
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+}
+nav .ProfileImg
+{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-radius: 50%;
+}
+main
+{
+    width: 55%;
+    margin: 10px auto;
+    border: 2px solid rgb(219, 216, 216);
+    padding: 10px;
+}
+.Contact , .Experience , .Follow , .Education , .Education , .Programming , .Interests
+{
+    border-bottom: 1px solid rgb(219, 216, 216);
+    padding-bottom: 20px;
+}
+.Interests
+{
+    margin-bottom: 40px;
+}
+.Contact img
+{
+    width: 12px;
+}
+.Experience img , .Follow img , .Education img , .Education img , .Programming img , .Interests img
+{
+    width: 30px;
+    padding-right: 5px;
+}
+.Container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.Item
+{
+    width: 180px;
+    background-color: rgb(15, 121, 241);
+    color: white;
+    padding: 40px 20px;
+    list-style: none;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.Title
+{
+    display: flex;
+}
